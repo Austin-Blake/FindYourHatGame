@@ -32,7 +32,7 @@ class Field {
 			}
 			this.field[this.locationY][this.locationX] = pathCharacter;
 		}
-	}
+	} 
 	instruction() {
 		const direction = prompt("Which way?").toUpperCase();
 		switch (direction) {
